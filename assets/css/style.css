@@ -5,10 +5,10 @@
 }
 
 body {
-    background-image: url(../img/gta_san_andreas.png);
+    /* background-image: url(../img/gta_san_andreas.png);
     background-repeat: no-repeat;
-    background-size: cover;
-     height: 100vh !important;
+    background-size: cover; */
+    background-color: black;
   object-fit: cover;
     color: #fff;
 }
