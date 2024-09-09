@@ -13,6 +13,10 @@ body {
     color: #fff;
 }
 
+html {
+    font-size: 20px !important;
+}
+
 .container_master {
     display: flex;
     justify-content: center;
