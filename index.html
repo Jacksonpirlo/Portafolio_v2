@@ -16,20 +16,47 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <!-- Bootstrap 5 -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="container_master">
-        <div class="title"><h1>Portafolio</h1></div>
-        <div class="item">
-            <ul>
-                <li> <img src="./assets/img/def_def.png" alt=""><a href="">Sobre Mí</a></li>
-                <li><img src="./assets/img/def_def.png" alt=""><a href="">Idiomas</a></li>
-                <li><img src="./assets/img/def_def.png" alt=""><a href="">Tecnologias</a></li>
-                <li><img src="./assets/img/def_def.png" alt=""><a href="">Proyectos</a></li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sobre Mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Idiomas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tecnologias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Proyectos</a>
+              </li>
             </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container_master">
+        <div class="title"><h1 id="title">Portafolio</h1></div>
+        <div class="item">
+           <div class="img">
+            <img src="./assets/img/My-img8bit-com-Effect.gif" alt="Gif_de_mí_:)">
+           </div>
+
+           <div class="text">
+            <h1>Hola, soy Jackson Florez</h1>
+            <p>Desarrollador web Junior</p>
+           </div>
         </div>
 
         <footer>
@@ -43,7 +70,7 @@
             </div>
         </footer>
     </div>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
