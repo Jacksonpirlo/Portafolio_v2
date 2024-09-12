@@ -6,14 +6,14 @@
 
 body {
     /* background-image: url(../img/gta_background_mobile.png); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-color: black !important; */
-    color: #fff;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #040404 !important;
+    color: #ffffff !important;
 }
 
 html {
-    font-size: 90.5%;
+    font-size: 100.5%;
 }
 
 .container_master {
@@ -73,6 +73,16 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 footer ul {
