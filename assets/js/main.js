@@ -1,13 +1,12 @@
-const app = Vue.createApp({
-    data() {
+AOS.init();
 
-    },
+const btn = document.getElementById("btn");
+const icon = document.getElementById("icon");
+let openBtn = false;
 
-    methods() {
+function toggleIcon() {
+  openBtn = !openBtn;
+  icon.classList = openBtn ? "bi bi-list-nested" : "bi bi-list";
+}
 
-    },
-
-    template: ``
-})
-
-const vm = app.mount("#app");
+btn.addEventListener('click', toggleIcon);
