@@ -218,3 +218,27 @@ footer ul li {
 .tecnologias .bi-bootstrap-fill {
     color: #8400ff;
 }
+
+/* Seccion Proyectos */
+
+.tech-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card {
+    margin: 12px;
+    font-size: 10px;
+}
+
+.card h1 {
+    font-size: 15px;
+}
+
+.card img {
+    width: 100%;
+}
