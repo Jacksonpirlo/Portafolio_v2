@@ -5,9 +5,6 @@
 }
 
 body {
-    /* background-image: url(../img/gta_background_mobile.png); */
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     background-color: #040404 !important;
     color: #ffffff !important;
 }
@@ -112,7 +109,7 @@ ul li a {
 
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -126,6 +123,10 @@ footer .redes {
     text-align: center;
 }
 
+footer p {
+    display: none;
+}
+
 footer ul {
     display: flex;
 }
@@ -136,6 +137,10 @@ footer ul li {
     list-style: none;
     font-size: 20px;
     margin: 10px;
+}
+
+.title_desktop {
+    display: none;
 }
 
 /* Seccion Idiomas */
@@ -242,3 +247,140 @@ footer ul li {
 .card img {
     width: 100%;
 }
+
+.container_master_tablet {
+    display: none;
+}
+
+.volver {
+    display: none;
+}
+
+/* seccion sobre mi */
+
+.sobre_mi_container {
+    display: none;
+}
+
+
+/* Para PC */
+
+@media screen and (min-width:1000px) {
+  .volver {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3em;
+    text-decoration: none;
+    color: #fff;
+font-family: "Sarpanch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+  
+
+  body {
+    background-image: url(../img/gta_san_andreas.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  nav {
+    display: none !important;
+  }
+
+  .container_master {
+    display: none;
+  }
+
+  .container_master_tablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5em;
+  }
+
+  h1 {
+     font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px;
+  margin-top: 20px !important;
+}
+
+.container_master_tablet ul li {
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    font-size: 25px;
+    font-family: "Sarpanch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  }
+
+  .container_master_tablet ul li img {
+    float: left;
+   }
+
+   footer {
+    margin-top: 6em;
+   }
+
+   footer p {
+    display: flex;
+    margin-left: 2em;
+     font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+   }
+   footer ul li {
+
+    right: -5px;
+}
+
+/* seccion de proyectos */
+
+
+.tech-container {
+    margin: 3em;
+   padding: 100px;
+}
+
+/* seccion sobre mi */
+
+.sobre_mi_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.sobre_mi_container .text {
+ text-align: center;
+    width: 100vh;
+}
+
+.sobre_mi_container img {
+    width: 200px;
+}
+
+.sobre_mi_container .volver {
+    margin-top: 3em !important;
+    margin-left: 2em !important;
+}
+
+.title_desktop {
+    display: flex;
+}
+
+  }
+
+  /* .container_master_tablet ul img {
+    display: none;
+  } */
+
