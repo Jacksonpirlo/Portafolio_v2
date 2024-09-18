@@ -12,20 +12,6 @@ function toggleIcon() {
 
 btn.addEventListener('click', toggleIcon);
 
-// const hover_h = document.querySelector(".li");
-
-
-// hover_h.addEventListener("mouseover", () => {
-// console.log("ssssssssssrfrf")
-//     // También puedes agregar el icono al elemento aquí
-//   });
-
-//   hover_h.addEventListener("mouseout", () => {
-//     console.log("ssss")
-//     También puedes eliminar el icono del elemento aquí
-
-//   });
-
 const vm = Vue.createApp({
   data() {
     return {
