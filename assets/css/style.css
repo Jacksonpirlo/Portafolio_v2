@@ -45,8 +45,8 @@ nav .container-fluid i {
     margin-left: 12px;
     margin-top: 15px;
     font-family: "Pirata One", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container_master .img {
@@ -70,11 +70,11 @@ nav .container-fluid i {
     display: flex;
     align-items: center;
     margin: 30px;
-      font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  list-style-type: none;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    list-style-type: none;
 }
 
 .item .descripcion {
@@ -86,11 +86,11 @@ nav .container-fluid i {
     padding: 10px;
     margin: 12px;
     font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  list-style-type: none;
-  border-radius: 12px;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    list-style-type: none;
+    border-radius: 12px;
 }
 
 .descripcion .text-descripcion {
@@ -157,8 +157,8 @@ footer ul li {
     margin-top: 30px !important;
     margin-bottom: 30px;
     font-family: "Pirata One", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container_idiomas .idiomas_items {
@@ -185,8 +185,8 @@ footer ul li {
     margin-top: 30px !important;
     margin-bottom: 30px;
     font-family: "Pirata One", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container_tech {
@@ -215,7 +215,7 @@ footer ul li {
     font-size: 75px;
     margin: 10px;
 }
- 
+
 .tecnologias .bi-git {
     color: #ff4800;
 }
@@ -266,78 +266,92 @@ footer ul li {
 /* Para PC */
 
 @media screen and (min-width:1000px) {
-  .volver {
+.volver {
     display: flex;
     justify-content: flex-end;
     margin-right: 3em;
     text-decoration: none;
     color: #fff;
 font-family: "Sarpanch", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+font-weight: 400;
+font-style: normal;
 
 }
 
-  
 
-  body {
+body {
     background-image: url(../img/gta_san_andreas.png); 
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  nav {
+nav {
     display: none !important;
-  }
+}
 
-  .container_master {
+.container_master {
     display: none;
-  }
+}
 
-  .container_master_tablet {
+.container_master_tablet {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 5em;
-  }
+}
 
-  h1 {
-     font-family: "Pirata One", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  margin: 20px;
-  margin-top: 20px !important;
+h1 {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px;
+    margin-top: 20px !important;
 }
 
 .container_master_tablet ul li {
-    position: relative;
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
     padding: 5px;
     list-style: none;
     font-size: 25px;
     font-family: "Sarpanch", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
 
-  }
+.container_master_tablet ul li a {
+    position: relative;
+    margin: 13px;
+}
 
-  .container_master_tablet ul li img {
+.container_master_tablet ul li img {
     float: left;
-   }
+}
 
-   footer {
+.imagen-hover {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -20px;
+}
+
+footer {
     margin-top: 6em;
-   }
+}
 
-   footer p {
+footer p {
     display: flex;
     margin-left: 2em;
-     font-family: "Pirata One", system-ui;
-  font-weight: 400;
-  font-style: normal;
-   }
-   footer ul li {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+/* #palabras {
+    display: flex;
+} */
+footer ul li {
 
     right: -5px;
 }
@@ -347,7 +361,7 @@ font-family: "Sarpanch", sans-serif;
 
 .tech-container {
     margin: 3em;
-   padding: 100px;
+    padding: 100px;
 }
 
 /* seccion sobre mi */
@@ -361,7 +375,7 @@ font-family: "Sarpanch", sans-serif;
 }
 
 .sobre_mi_container .text {
- text-align: center;
+    text-align: center;
     width: 100vh;
 }
 
@@ -372,15 +386,16 @@ font-family: "Sarpanch", sans-serif;
 .sobre_mi_container .volver {
     margin-top: 3em !important;
     margin-left: 2em !important;
+    cursor: pointer;
 }
 
 .title_desktop {
     display: flex;
 }
 
-  }
+}
 
-  /* .container_master_tablet ul img {
+/* .container_master_tablet ul img {
     display: none;
   } */
 
