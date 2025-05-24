@@ -91,8 +91,8 @@ const vm = Vue.createApp({
 </div>
 
 <div class="text">
-<p>Ya han pasado aproximadamente 1 año y dos meses.</p> Desde que me enamoré de este hermoso
-mundo del desarrollo web, ahora cada dia para mí significa una nueva oportunidad para aprender y seguir avansando en mi futuro laboral, social y economico.
+<p>Ya han pasado aproximadamente 1 año y 8 meses.</p> Desde que me enamoré de este hermoso
+mundo del desarrollo web, ahora cada dia para mí significa una nueva oportunidad para aprender y seguir avanzando en mi futuro laboral, social y economico.
 Espero que te guste mi Portafolio :)
 </div>
 <a class="volver" @click="volver">Volver</a>
@@ -133,6 +133,11 @@ Espero que te guste mi Portafolio :)
             <img src=" ./assets/img/icons8-js-96.png" alt="">
             <img src=" ./assets/img/documento-php.png" alt="">
             <img src=" ./assets/img/servidor-sql.png" alt="">
+            <img src="./assets/img/Vue.js.png" alt="">
+            <img src="./assets/img/express-white.png" alt="">
+            <img src="./assets/img/Node.js.png" alt="">
+            <img src="./assets/img/NPM.png" alt="">
+            <img src="./assets/img/Python.png" alt="">
             <i class="bi bi-bootstrap-fill"></i>
             <i class="bi bi-git"></i>
             <i class="bi bi-github"></i>
