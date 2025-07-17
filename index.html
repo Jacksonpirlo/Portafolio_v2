@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Google fonts -->
     <!-- Fondo para desktop -->
-     <!-- Vnzla -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -26,7 +25,8 @@
     <title>Inicio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <header>
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Menu</a>
           <button class="navbar-toggler" id="btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,21 +38,23 @@
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./assets/html/idiomas.html">Idiomas</a>
+                <a class="nav-link" href="./assets/html_mobile_version/idiomas.html">Idiomas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./assets/html/tecnologias.html">Tecnologias</a>
+                <a class="nav-link" href="./assets/html_mobile_version/tecnologias.html">Tecnologias</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./assets/html/proyectos.html">Proyectos</a>
+                <a class="nav-link" href="./assets/html_mobile_version/proyectos.html">Proyectos</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+      <div class="title"><h1 id="title">Portafolio</h1></div>
+    </header>
 
-    <div class="container_master">
-        <div class="title"><h1 id="title">Portafolio</h1></div>
+    <main>
+      <div class="container_master">
         <div class="item">
           <div class="img">
             <img src="./assets/img/My-img8bit-com-Effect.gif" alt="Gif_de_mí_:)">
@@ -65,18 +67,17 @@
 
         <div class="descripcion">
             <p class="text-descripcion">
-              <p>Ya han pasado aproximadamente 1 año y dos meses.</p> Desde que me enamoré de este hermoso
-            mundo del desarrollo web, ahora cada dia para mí significa una nueva oportunidad para aprender y seguir avansando en mi futuro laboral, social y economico.
-            Espero que te guste mi Portafolio :)
+              <p>Ya ha pasado más de un año desde que descubrí mi pasión por el desarrollo web. Desde entonces, cada día representa una nueva oportunidad para aprender, crecer profesionalmente y avanzar en mi desarrollo personal y económico.
+              Te invito a explorar mi portafolio; espero que lo disfrutes tanto como yo disfruto construirlo.
             </p>
         </div>
         </div>
         </div>
                 <!-- <h1 id="palabras"></h1> -->
 
-        <div id="app">
-          
-        </div>
+        <div id="app"></div>
+        
+    </main>
     <footer>
             <div class="redes">
                 <ul>
@@ -87,7 +88,7 @@
                 </ul>
             </div>
             <p>Inspirado en GTA SAN ANDREAS</p>
-        </footer>
+      </footer>
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
